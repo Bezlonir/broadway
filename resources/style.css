@@ -37,11 +37,16 @@ p {
   font-size:14px;
 }
 
-footer {
+.foot {
   background-color:dimgray;
-  display:inline-block;
+
 }
 
+.foot-link {
+  font-weight:bold;
+  text-decoration:underline;
+  color:white;
+}
 .copyright {
   font-size:11px;
   color:white;
