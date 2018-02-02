@@ -1,16 +1,16 @@
 * {
   font-family:Helvetica;
+
+
+}
+
+#container {
   display:block;
   text-align:center;
   margin:auto;
   color:black;
   margin-top:15px;
   margin-bottom:15px;
-
-}
-
-#container {
-
 }
 
 header {
@@ -37,8 +37,14 @@ p {
   font-size:14px;
 }
 
-.foot {
+#foot {
   background-color:dimgray;
+  display:inline;
+  justify-content:start;
+  margin: none;
+  height:25px;
+  padding:none;
+  text-align:left;
 
 }
 
@@ -46,7 +52,13 @@ p {
   font-weight:bold;
   text-decoration:underline;
   color:white;
+  font-size: 11px;
 }
+
+.box {
+  width:auto;
+}
+
 .copyright {
   font-size:11px;
   color:white;
